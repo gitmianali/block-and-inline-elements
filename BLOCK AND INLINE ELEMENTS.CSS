@@ -1,0 +1,87 @@
+body {
+  background-color:#658eda;
+  color: rgb(12, 12, 12);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 600px;
+  /* this controls the width of all text*/
+  text-align: center;
+  margin: 0 auto;
+}
+
+.h1 {
+  margin: 0 auto;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 40px;
+  white-space: nowrap;
+  color: wheat;
+}
+
+.h2 {
+  border: 2px solid rgb(250, 250, 250);
+  border-radius: 10px;
+  color: wheat;
+}
+
+.h3 {
+  text-decoration: none;
+  border: 2px dotted white;
+  border-radius: 5px;
+  width: 100%;
+  display: block;
+  padding-right: 4px;
+  padding-left: 4px;
+  color: wheat;
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  list-style: none;
+}
+
+#t1 {
+  border-collapse: separate;
+  overflow: hidden;
+  border-spacing: 0;
+  margin: 40px auto;
+  text-align: center;
+  border: 2px solid black;
+  border-color: black;
+  width: 400px;
+  border-radius: 10px;
+}
+
+#t1 th {
+  color: wheat;
+  font-weight: bolder;
+  font-size: 25px;
+  border: 2px solid black;
+}
+
+#t1 td {
+  font-weight: lighter;
+  border: 2px solid black;
+  border-color: black;
+  font-size: 15px;
+  border-collapse: collapse;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+#div1 {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.box {
+  display: inline-block;
+  margin: 15px auto;
+  margin-top: 0;
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  color: black;
+  margin-right: 10px;
+}
